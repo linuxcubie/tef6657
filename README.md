@@ -5,7 +5,7 @@ compile with arm-poky-linux-gnueabi-gcc
 
 put them inside [kernel source]/drivers/media/radio/tef665x/
 
-modify [kernel source]/drivers/media/radio/Kconfig and Makefile so the kbuild system and recognize the module.
+modify [kernel source]/drivers/media/radio/Kconfig and Makefile so the kbuild system can recognize the module.
 
 the interface with user space is sysfs.
 
