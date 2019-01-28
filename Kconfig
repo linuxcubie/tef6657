@@ -1,0 +1,12 @@
+
+config I2C_TEF6657
+	tristate "NXP tef6657 AM/FM/RDS Radio tuner"
+	depends on RADIO_TEF665X 
+	---help---
+	  This is a driver for tef6657 chip.
+
+	  Say Y here if you have this chip connected to your soc.
+
+	  To compile this driver as a module, choose M here: the
+	  module will be called radio-i2c-tef6657
+
